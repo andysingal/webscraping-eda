@@ -1,6 +1,6 @@
 # Cookie Clicker Bot
 
-![Cookie Clicker Bot](Cookie_clicker/assets/cookie_bot.gif)
+![Cookie Clicker Bot](assets/cookie_bot.gif)
 
 Auto click bot for [Cookie Clicker](https://orteil.dashnet.org/experiments/cookie/) online game.
 
