@@ -17,13 +17,13 @@ Auto click bot for [Cookie Clicker](https://orteil.dashnet.org/experiments/cooki
 ### Run from a temporary installation
 
 ```
-pipx run --spec git+https://github.com/ig0r-ferreira/cookieclicker.git cookieclicker 1
+pipx run --spec git+https://github.com/andysingal/cookieclicker.git cookieclicker 1
 ```
 
 ### Install
 
 ```
-pipx install git+https://github.com/ig0r-ferreira/cookieclicker.git
+pipx install git+https://github.com/andysingal/cookieclicker.git
 ```
 
 You will now be able to run the application from anywhere on your system.
