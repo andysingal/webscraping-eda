@@ -8,4 +8,5 @@ from selenium.webdriver.common.keys import Keys
 chrome_driver_path = "/Users/ankushsingal/Desktop/webscraping/chromedriver"
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
-driver.get('https://en.wikipedia.org/wiki/Main_Page')
+driver.get("http://orteil.dashnet.org/experiments/cookie/")
+
