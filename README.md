@@ -12,26 +12,13 @@ Auto click bot for [Cookie Clicker](https://orteil.dashnet.org/experiments/cooki
 - [pipx](https://pypa.github.io/pipx/)
   
 
-## How to install or just run
 
-### Run from a temporary installation
-
-```
-pipx run --spec git+https://github.com/andysingal/cookieclicker.git cookieclicker 1
-```
 
 ### Install
 
 ```
-pipx install git+https://github.com/andysingal/cookieclicker.git
+pipx install git+https://github.com/andysingal/webscraping-eda.git
 ```
 
-You will now be able to run the application from anywhere on your system.
 
-## Commands
 
-```
-cookieclicker -h                    # See the help                       
-cookieclicker 1                     # Run for 1 minute
-cookieclicker 1 -delay 5            # Run for 1 minute buying items every 5 seconds
-```
