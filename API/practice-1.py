@@ -32,8 +32,8 @@ print(json.dumps(data3, indent=4, sort_keys=True))
 
 #EXTRACTING DATA FOR A TIME PERIOD
 # args = {'start_at': '2017-04-26', 'end_at': '2018-04-26', 'symbols': 'GBP'}
-time_period = base_url + "/history" + "?start_at=2017-04-26&end_at=2018-04-26"
-print(time_period)
+# time_period = base_url + "/history" + "?start_at=2017-04-26&end_at=2018-04-26"
+# print(time_period)
 # response3 = requests.get(time_period ,params={"apikey": api_key})
 # data4 = response3.json()
 # # #Sort in chronological order
