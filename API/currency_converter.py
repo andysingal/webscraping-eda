@@ -10,7 +10,7 @@ curr = input("Convert to (currency): ")
 quan = float(input("How much {} do you want to convert: ".format(base)))
 #
 # ##***https://xyneth.netlify.app/work/currency-exchange-rate-api/
-url = base_url + "/" + date + "?base=" + base + "&symbols=" + curr
+url = base_url +  "?date=" + date + "?base=" + base + "&symbols=" + curr
 response = requests.get(url, params={"apikey": api_key})
 
 if (response.ok is False):
@@ -23,5 +23,5 @@ else:
 
     result = quan * rate
 #
-#     print("\n{0} {1} is equal to {2} {3}, based upon exchange rates on {4}".format(quan, base, result, curr,
-#                                                                                    data['date']))
+    print("\n{0} {1} is equal to {2} {3}, based upon exchange rates on {4}".format(quan, base, result, curr,
+                                                                                   data['date']))
