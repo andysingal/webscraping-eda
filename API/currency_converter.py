@@ -24,4 +24,7 @@ else:
     result = quan * rate
 #
     print("\n{0} {1} is equal to {2} {3}, based upon exchange rates on {4}".format(quan, base, result, curr,
+
+
+
                                                                                    data['date']))
